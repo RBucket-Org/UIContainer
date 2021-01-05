@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-AppBar header(BuildContext context) {
+AppBar header(BuildContext context, String text) {
   return AppBar(
-    title: Text("ANONY UI"),
+    title: Text("$text"),
   );
 }
